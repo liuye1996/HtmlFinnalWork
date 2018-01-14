@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+body{
+	text-align:center;
+	background:#232524;
+	margin:0;
+	padding:0;
+	font-family:"宋体",Arial,Helveica,sans-serif;
+	font-size:12px;
+	line-height:1.5;
+	width:100%;
+	}
+
+/**  header   **/
+#header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index:5;
+    width: 100%;
+    min-width: 600px;
+	height:40px;
+	background:#101010 ;
+	display: inline-block;
+	}
+#headerbox{
+	width: 70%;
+	margin: 0 auto;
+}
+#title{
+	float: left;
+	line-height: 1.42857143;
+	font-size:19px;
+	color:#BBBBBB;
+	text-decoration:none;
+	margin: 5px auto;
+	font-weight: bold;
+}
+#title:hover{
+	color:#FFFFFF;
+}
+#menu{
+	float:right;
+	height:29px;
+	margin:5px auto;
+	display:inline;
+	padding:0;
+}
+#menu ul{
+	list-style:none;
+	display:inline;
+}
+#menu ul li{
+	float:left;
+	padding-left:20px;
+	padding-top:5px;
+}
+#menu ul li a{
+	line-height: 1.42857143;
+	font-size:14px;
+	color:#BBBBBB;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	color:#FFFFFF;
+}
+
+/** 顶部图片栏 **/
+#bar{
+	position: relative;
+	top:40px;
+	z-index:1;
+	width: 100%;
+	height: 150px;
+}
+#header-img{
+	width:100%;
+	height:150px;
+	margin:0 auto;
+	}
+#bartext1{
+	position:absolute;
+	top:15px;
+	left:22%;	
+	font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: bold;
+}
+#bartext2{
+	position: absolute;
+	top: 60px;
+	left: 22%;
+	z-index:2;
+	font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/**  联系我  **/
+#social{
+	position: relative;
+	top:40px;
+	z-index: 1;
+	width: 100%;
+	height: 35px;
+    text-align: center;
+    background-color: #232524;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    
+}
+#social-text{
+	width: 370px;
+	margin:0 auto;
+}
+#social-text ul{
+	list-style:none;
+	display:inline;
+}
+#social-text ul li{
+	float: left;
+	padding-left:20px;
+	padding-top:7px;
+}
+#social-text ul li a{
+	line-height: 1.42857143;
+	font-size:14px;
+	color:#BBBBBB;
+	text-decoration:none;
+}
+#social-text ul li a:hover{
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+
+
+/******  content 中间主体部分   ******/
+#content{
+	position: relative;
+	top:0px;
+	width: 100%;
+	height: auto;
+}
+#bgimg{
+	z-index: 0;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	}
+#content h2{
+	margin: auto;
+	position: absolute;
+	top: 120px;right:0;bottom:0;left: 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 38px;
+}
+#content h3{
+	margin: auto;
+	position: absolute;
+	top: 178px;right:0;bottom:0;left: 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+#bigbox{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	position: absolute;
+	top: 250px;right:0;bottom:0;left: 0;
+	padding-bottom: 50px;    /*等于footer的高度*/
+}
+#box{
+	float: left;
+	display: block;
+	width: 19%;
+	margin-right: 2%;
+	margin-left: 2%;
+    padding: 4px;
+    margin-bottom: 70px;
+    line-height: 1.42857143;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+#box img {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+}
+#box h4{
+	margin: 5px auto;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+#box h4 a:link{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#box h4 a:hover{
+	text-decoration: underline;
+	font-weight: bold ;
+	color: #BBBBBB;
+}
+#box h4 a:visited {
+ 	COLOR:#FFFFFF;
+}
+#box h5{
+	margin: -8px auto;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+#box p{
+	margin: 16px 16px 16px 16px;
+	font: 15px;
+	color: #BBBBBB;
+}
+
+/******  footer底部说明栏  ******/
+#footer{
+	margin: 0 auto -50px auto;
+	position: relative;
+	margin-top:-50px;    /*等于footer的高度*/      
+	z-index: 1;
+	width: 100%;
+	height: 50px;       /*等于footer的高度*/
+	background-color: #000000;
+	border-top: solid #BBBBBB 1px ;
+}
+#footer-top{
+	
+}
+#footer-bottom{
+	width: 100%;
+	height: 0px;
+	font_size:12px;
+	color:#BBBBBB;
+	text-align:center;
+}
+#footer-bottom p{
+	margin: 8px auto;
+}
