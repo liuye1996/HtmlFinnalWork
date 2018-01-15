@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/** header下导航栏 **/
+#leader{
+	position: relative;
+	top:40px;
+	z-index: 1;
+	width: 100%;
+	height: 35px;
+    text-align: center;
+    background-color: #000000;
+}
+#leader-text{
+	width: 643px;
+	margin:0 auto;
+}
+#leader-text ul{
+	list-style:none;
+	display:inline;
+}
+#leader-text ul li{
+	float: left;
+	padding-left:30px;
+	padding-top:7px;
+}
+#leader-text ul li a span{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left:30px;
+	padding-top:-3px;
+}
+#leader-text ul li a{
+	line-height: 1.42857143;
+	font-size:14px;
+	color:#BBBBBB;
+	text-decoration:none;
+}
+#leader-text ul li a:hover{
+	color: #FFFFFF;
+}
+/**      主体盒子              **/
+#sscontent{
+	position: relative;
+	top:0px;
+	width: 60%;
+	height: auto;
+	background-color: #101010;
+	margin: 0 auto;
+}
+#sstitle{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+}
+#sstitle h1{
+	margin: auto;
+	position: relative;
+	top: 80px;right:0;bottom:0;left: 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 34px;
+}
+#sstitle h2{
+	margin: auto;
+	position: relative;
+	top: 70px;right:0;bottom:0;left: 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+}
+#sstitle p{
+	position: relative;
+	top: 80px;right:0;bottom:0;left: 0;
+	width: 40%;
+	height: auto;
+	color: #FFFFFF;
+	text-indent:2em;
+	font-size: 15px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#ssbigbox{
+	width: 100%;
+	height: 2200px;
+	margin:10px auto;
+	position: relative;
+	top: 0px;    
+	padding-bottom: 0px; /*等于footer的高度*/
+	margin-bottom: 0px;
+}
+
+#ssbox{
+	position: relative;
+	top: 120px;
+	width: auto;
+	height: auto;
+	border-top: solid #BBBBBB 1px;
+	padding-top: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+#ssbox h3{
+	float: left;
+	margin: -10px 100px 20px 0;
+	font-size: 19px;
+	color: #BBBBBB;
+}
+#ssbox p1{
+	width: 47%;
+	float: left;
+	font-size: 15px;
+	text-indent:2em;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0px 0 25px 20px;
+}
+#ssbox p{
+	width: 95%;
+	float: left;
+	font-size: 15px;
+	text-indent:2em;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0px 0 25px 20px;
+}
+
+#ssbox img{
+	width: 45%;
+	height: auto;
+	margin: 0 0 0 10px;
+}
+#tianti{
+	width: 100%;
+	float: left;
+	margin: 0px auto 0 10px;
+}
+#tianti h4{
+	text-align: left;
+	margin: 0 0 0 10px;
+	font-size: 16px;
+	color: #BBBBBB;
+}
+#tianti ol{
+	
+}
+#tianti ol li{
+	color: #FFFFFF;
+	margin: 5px;
+	text-align: left;
+}
+
